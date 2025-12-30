@@ -1,5 +1,7 @@
 # nextjs-hostinger-deploy
 
+[![npm version](https://badge.fury.io/js/nextjs-hostinger-deploy.svg)](https://badge.fury.io/js/nextjs-hostinger-deploy)
+
 A CLI tool to export a Next.js project to static files and deploy them to Hostinger shared hosting via FTP.
 
 **Short command**: Use `nhd` instead of `nextjs-hostinger-deploy` (e.g., `npx nhd init`).
