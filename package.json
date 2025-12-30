@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-hostinger-deploy",
+  "version": "1.0.0",
+  "description": "CLI tool for Next.js static export and FTP deployment to Hostinger shared hosting",
+  "repository": "https://github.com/yourusername/nextjs-hostinger-deploy",
+  "main": "dist/index.js",
+  "bin": {
+    "nextjs-hostinger-deploy": "dist/cli.js",
+    "nhd": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["nextjs", "deploy", "ftp", "hostinger", "cli"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "basic-ftp": "^5.0.0"
+  }
+}
