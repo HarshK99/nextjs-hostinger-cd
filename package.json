@@ -2,7 +2,7 @@
   "name": "nextjs-hostinger-deploy",
   "version": "1.0.0",
   "description": "CLI tool for Next.js static export and FTP deployment to Hostinger shared hosting",
-  "repository": "https://github.com/yourusername/nextjs-hostinger-deploy",
+  "repository": "https://github.com/HarshK99/nextjs-hostinger-cd",
   "main": "dist/index.js",
   "bin": {
     "nextjs-hostinger-deploy": "dist/cli.js",
